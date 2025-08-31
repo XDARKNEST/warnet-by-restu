@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulasi Warnet Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game">
+    <h1>Simulasi Warnet Indonesia</h1>
+    <div class="status">
+      <p id="status">Uang: Rp50000 | PC: 1 (Standar) | Reputasi: 50 | ⚡ Listrik:</p>
+      <div class="bar-container"><div id="powerBar" class="bar"></div></div>
+      <p id="upgrade">Upgrade: -</p>
+    </div>
+    <div id="message">Selamat datang di game warnet! 🚀</div>
+    <button onclick="bukaWarnet()">Buka Warnet</button>
+    <button onclick="pilihPC()">Beli Varian PC</button>
+    <button onclick="bayarListrik()">Bayar Listrik (Rp10000)</button>
+    <button onclick="upgradeItem('kursi',15000)">Upgrade Kursi (Rp15000)</button>
+    <button onclick="upgradeItem('ac',25000)">Upgrade AC (Rp25000)</button>
+    <button onclick="upgradeItem('snack',30000)">Beli Snack Corner (Rp30000)</button>
+    <button onclick="upgradeItem('promosi',40000)">Promosi Kreator (Rp40000)</button>
+    <button onclick="masukkanCheat()">Masukkan Cheat</button>
+    <button onclick="restartGame()">Restart Game</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
